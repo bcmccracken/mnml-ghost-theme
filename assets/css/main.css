@@ -108,10 +108,10 @@ html {
 }
 
 body {
-    font-family: "Source Serif Pro", Georgia, serif;
+    font-family: 'Open Sans', sans-serif;
     color: #333;
     font-size:21px;
-    background: #fdfdfd;
+    background: #fffaef;
     /* A slight hack to prevent full-bleed images from creating a scrollbar */
     overflow-x: hidden;
 
@@ -131,6 +131,11 @@ body {
     color:white
 }
 
+h2 {
+  font-style: italic;
+  font-weight: 800;
+}
+
 h1, h2, h3,
 h4, h5, h6,
 main-nav a,
@@ -138,8 +143,9 @@ main-nav a,
 .site-footer,
 .pagination,
 .sans-serif{
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 h4, h5, h6,
 .older-posts, .newer-posts{
@@ -152,19 +158,15 @@ h4{
 }
 
 a {
-  color: #dd4814;
+  color: #b076f0;
   transition: color ease 0.3s;
 }
 a:hover, a:active, a.active{
-  color: orange;
+  color: #ffbf66;
 }
 
 em, i {
-/*
-  Yeah, this is a hack.
-  Real italics are coming to Source Serif Pro, but I couldn’t wait to use it.
-*/
-  font-family: "Alegreya";
+  font-family: 'PT Serif', serif;
   font-style: italic;
 }
 
@@ -232,7 +234,7 @@ input, textarea{
   min-width: 55%;
   border:2px solid slategray;
   padding:.55rem;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: .55rem auto;
   box-sizing: border-box;
 }
@@ -300,13 +302,13 @@ blockquote {
   box-sizing: border-box;
   margin: 1.65rem 0 1.65rem -1.8rem;
   padding: 0 0 0 1.65rem;
-  border-left: orange 3px double;
+  border-left: #ffbf66 3px double;
 }
 
 blockquote p {
   margin: 0;
   font-style: italic;
-  font-family: "Alegreya", georgia, serif;
+  font-family: 'PT Serif', serif;
 }
 
 blockquote small {
@@ -404,7 +406,7 @@ table {
   width: 100%;
   max-width: 100%;
   background-color: transparent;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 table th,
@@ -565,7 +567,7 @@ margin on the iframe, cause it breaks stuff. */
   margin: 1.1rem;
   font-style: italic;
   color:slategray;
-  font-family: "Alegreya", Georgia, serif;
+  font-family: 'PT Serif', serif;
   -webkit-hyphens: auto;
      -moz-hyphens: auto;
       -ms-hyphens: auto;
@@ -580,7 +582,7 @@ margin on the iframe, cause it breaks stuff. */
   position: relative;
   top: 2.1rem;
   right:4rem;
-  color:orange;
+  color:#ffbf66;
   line-height: 0;
 }
 
@@ -589,7 +591,7 @@ margin on the iframe, cause it breaks stuff. */
   width: 40%;
   top:3rem;
   right:3.3rem;
-  font-family: "Alegreya", Georgia, serif;
+  font-family: 'PT Serif', serif;
 }
 
 .p-quote:after{
@@ -597,7 +599,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 aside{
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   width: 40%;
   float:right;
   line-height: 1.65;
@@ -611,7 +613,7 @@ aside{
 
 aside.note:before{
   position: relative;
-  font-family: "Source Serif Pro", Georgia, serif;
+  font-family: 'PT Serif', serif;
   font-weight: 900;
   color:  #ccc;
   bottom:.55rem;
@@ -635,7 +637,7 @@ aside.note:before{
   padding: .55rem 1.1rem;
   text-indent: 0;
   text-decoration: none;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   margin:.5em auto !important;
   display: inline-block;
@@ -648,7 +650,7 @@ aside.note:before{
 
 .btn:active, .btn:hover,  .btn.active, button:active, button:hover, input[type=button]:active, input[type="button"]:hover{
   color:white;
-  background: orange;
+  background: #ffbf66;
   box-shadow: 0 0 10px -3px #dd4814 inset;
   border:1px solid #dd4814;
 }
@@ -745,7 +747,7 @@ aside.note:before{
 }
 
 .main-nav--content .back-arrow{
-  color:orange;
+  color:#ffbf66;
   font-weight:900;
 }
 
@@ -760,10 +762,10 @@ aside.note:before{
   text-align:left;
   display:inline-block;
   float:left;
-  color: #444;
+  color: #fbc;
   text-transform: none;
   font-weight: 400;
-  font-family: "Source Serif Pro", Georgia, serif;
+  font-family: 'Rubik', sans-serif;
   padding: 0.55rem 1.65rem 0rem 0;
   padding-right: 50px; /* Hack to prevent menu icon from overlapping really long titles */
   margin-bottom: 0;
@@ -772,7 +774,7 @@ aside.note:before{
 
 .page-description {
   text-transform: none;
-  font-family: "Alegreya", Georgia, serif;
+  font-family: 'PT Serif', serif;
   font-style: italic;
   font-weight: 200;
   color:slategray;
@@ -835,7 +837,7 @@ aside.note:before{
 }
 
 .menu a{
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Rubik', sans-serif;
   color:slategray;
   text-transform: uppercase;
   font-weight: 900;
@@ -853,7 +855,7 @@ aside.note:before{
   border:none;
   cursor: pointer;
   z-index: 4;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Rubik', sans-serif;
   background-color: transparent;
   box-shadow: none;
   background-repeat: no-repeat;
@@ -984,11 +986,13 @@ aside.note:before{
 }
 
 .post-meta {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;;
   display: block;
   margin: 0;
   color: lightslategray;
   font-size: .8888rem;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .author-thumb {
@@ -1133,7 +1137,7 @@ aside.note:before{
 }
 
 figcaption {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;;
   text-align: center;
   margin-top: -12px;
   padding: 0.5rem;
@@ -1238,6 +1242,7 @@ figure.kg-embed-card * {
 
 .post-footer p {
   margin:1.1rem 0;
+  font-size: medium;
 }
 
 /* list of author links - location / url */
@@ -1289,7 +1294,7 @@ figure.kg-embed-card * {
 }
 
 .share a:hover{
-  color:orange;
+  color:#ffbf66;
 }
 
 .icon-google-plus{
@@ -1316,11 +1321,11 @@ figure.kg-embed-card * {
 .icon-twitter:hover,
 .share .icon-facebook:hover,
 .icon-facebook:hover {
-  color: orange;
+  color: #ffbf66;
 }
 
 .icon-feed {
-  color: orange;
+  color: #ffbf66;
 }
 
 
@@ -1493,7 +1498,7 @@ figure.kg-embed-card * {
 .older-posts:hover,
 .newer-posts:hover {
   color: #dd4814;
-  border-color: orange;
+  border-color: #ffbf66;
 }
 
 .extra-pagination {
@@ -1569,7 +1574,7 @@ figure.kg-embed-card * {
 }
 
 .site-footer a:hover{
-  color:orange;
+  color:#ffbf66;
 }
 
 /* The subscribe icon on the footer */
@@ -1590,7 +1595,7 @@ figure.kg-embed-card * {
 
 /* The RSS icon, inserted via icon font */
 .subscribe:before {
-  color: orange;
+  color: #ffbf66;
   font-size: 24px;
   position: absolute;
   top: 13px;
@@ -1866,7 +1871,7 @@ top: -35px;
   .menu:before{
     content: "{ menu }";
     font-weight: 700;
-    font-family: "Alegreya", Georgia, Serif;
+    font-family: 'PT Serif', serif;
     text-align: center;
     color:#ccc;
     font-size:3.3rem;

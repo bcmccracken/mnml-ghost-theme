@@ -1,6 +1,6 @@
 {
-  "name": "mnml",
-  "description": "A minimal, responsive, fast ghost blog theme with great typography. Comes with Disqus comments, syntax highlighting, and KaTeX for mathematics, and more.",
+  "name": "mnml-tripe",
+  "description": "A minimal, responsive, fast ghost blog theme buy Curiositry, edited by Brendo for tripe.me.",
   "demo": "http://mnml.herokuapp.com",
   "version": "4.3.0",
   "engines": {

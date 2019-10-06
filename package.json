@@ -1,8 +1,8 @@
 {
   "name": "mnml-tripe",
-  "description": "A minimal, responsive, fast ghost blog theme buy Curiositry, edited by Brendo for tripe.me.",
+  "description": "A minimal, responsive, fast ghost blog theme by Curiositry, edited by Brendo for tripe.me.",
   "demo": "http://mnml.herokuapp.com",
-  "version": "4.3.0",
+  "version": "4.3.5",
   "engines": {
       "ghost": ">=2.19.4",
       "ghost-api": "v2"
